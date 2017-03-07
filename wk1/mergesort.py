@@ -2,7 +2,7 @@
 '''
 Engineering: Algorithms1 Algorithms: Design and Analysis
 Stanford University online.
-mergesort mylistersions in o(nlog(n)) time
+mergesort, runs in o(nlog(n)) time
 Example:
     runmergesort([4, 1, 6, 3, 5, 2, 7, 8])
 
