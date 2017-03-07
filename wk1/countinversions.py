@@ -6,7 +6,7 @@ countsort inversions in o(nlog(n)) time
 Example:
     inv = countsortinversions([4, 1, 6, 3, 5, 2, 7, 8])
 
-    inv = countsortinversions(readfile('/Users/bob/Downloads/IntegerArray.txt'))
+    inv = countsortinversions(readfile('IntegerArray.txt'))
 Author: Andrew L
 '''
 import time
@@ -108,7 +108,7 @@ def main():
     countsortinversions([54044, 14108, 79294, 29649, 25260, 60660, 2995], True)
 
     print "\nreading in data file..."
-    lines = readfile('/Users/andrew/Downloads/IntegerArray.txt')
+    lines = readfile('IntegerArray.txt')
     print "read ", len(lines), " lines"
 
     countsortinversions(lines, True, True)

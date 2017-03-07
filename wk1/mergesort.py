@@ -6,7 +6,7 @@ mergesort mylistersions in o(nlog(n)) time
 Example:
     runmergesort([4, 1, 6, 3, 5, 2, 7, 8])
 
-    runmergesort(readfile('/Users/bob/Downloads/IntegerArray.txt'))
+    runmergesort(readfile('IntegerArray.txt'))
 Author: Andrew L
 '''
 import time
@@ -94,7 +94,7 @@ def main():
     runmergesort([54044, 14108, 79294, 29649, 25260, 60660, 2995], True)
 
     print "reading in data file..."
-    lines = readfile('/Users/andrew/Downloads/IntegerArray.txt')
+    lines = readfile('IntegerArray.txt')
     print "read ", len(lines), " lines"
     runmergesort(lines, False, True)
     #print "brute force solution for ", mylist, "is ", bruteforce(lines)
